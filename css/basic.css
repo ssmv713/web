@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, dl, li, dt, dd{ list-style: none; }
+a{ color: #222; text-decoration: none;}
+a:hover{
+    color: red;
+}
+
+/* command */
+.container{ width: 1200px; margin: 0 auto;}
+.d-flex{ display: flex;}
+.justify-content-between{justify-content: space-between;}
+.align-items-center{align-items: center;}
+
+.abs{ position: absolute;}
+.rel{ position: relative;}
+
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+
+/* header */
+
+#gnb > li{
+    padding: 20px;
+}
+#gnb > li > a{
+    font-size: 25px;
+    
+}
+#gnb .d2{
+    border: 1px solid #222;
+    min-width: 90px; padding: 0 0 0 20px; left:-20px 
+}
+
+/* footer */
